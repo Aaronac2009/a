@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmotec - Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <section class="logo">
+            <img src="img/Logotipo.png" class="logo__img">
+            <img src="img/menu.png" alt="" class="menu" id="menu">
+        </section>
+        <section class="header__button" id="show">
+            <a href="#acercade">
+                <p class="header__about__us">ACERCA DE NOSTOROS</p>
+            </a>
+            <a href="#contacto">
+                <p class="header__contact">CONTACTO</p>
+            </a>
+            <a href="propiedades.html">
+                <p></p>
+                <div class="button">
+                    <p>VER OPCIONES</p>
+                </div>
+            </a>
+        </section>
+    </header>
+    <main>
+        <section class="services">
+            <h2 class="services__title">NUESTROS SERVICIOS</h2>
+            <p class="services__paragraph">Inmotec se encarga de ayudar al cliente a encontrar la propiedad que mas se ajuste a sus necesidades y presupuesto, brindando el mejor asesoramiento</p>
+        </section>
+        
+        <section class="action">
+            <div class="action__view">
+                <h2 class="action__title action__title__view">TE INTERESA ADQUIRIR ALGUNA PROPIEDAD?</h2>
+                <img src="img/house_icon.png" class="action__img">
+                <a href="propiedades.html" class="action__link">
+                    <div class="action__button">
+                        <p class="action__paragraph">VER OPCIONES</p>
+                    </div>
+                </a>
+                
+            </div>
+            <div class="action__text">
+                <h2 class="action__title">TE INTERESA ADQUIRIR ALGUNA PROPIEDAD?</h2>
+            </div>
+            
+        </section>
+
+        <section class="contact" id="contacto">
+            <div class="info">
+                <div class="info__section">
+                    <img src="img/ubication.png" alt="" class="info__img">
+                    <p class="info__paragraph">200 metros este del colegio claretiano</p>
+                </div>
+                <div class="info__section">
+                    <img src="img/email.png" alt="" class="info__img">
+                    <p class="info__paragraph">infotec.contact@gmail.com</p>
+                </div>
+                <div class="info__section">
+                    <img src="img/phone.png" alt="" class="info__img">
+                    <p class="info__paragraph">+506 7258 4487</p>
+                </div>
+            </div>
+            <div class="form">
+                <h2 class="contact__title">Contacto</h2>
+                <form action="" class="contact__form">
+                    <label for="nombre" class="contact__label">Nombre</label>
+                    <input type="text" id="nombre" class="contact__input">
+                    <label for="email" class="contact__label">Correo</label>
+                    <input type="email" id="email" class="contact__input">
+                    <label for="Mensaje" class="contact__label">Mensaje</label>
+                    <textarea rows="5" name="mensaje" id="mensaje" class="contact__textarea" arequired></textarea>
+                    <button type="submit" class="contact__send" onclick="enviar()">Entregar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <section class="about__us" id="acercade">
+        <h2 class="about__us__title">Acerca de Nosotros</h2>
+        <div class="about__us__info">
+            <div class="about__us__square">
+                <h2 class="about__us__sub">MISION</h2>
+                <p class="about__us__paragraph">Empoderar a las personas para que
+                    encuentren su lugar soñado al rededor
+                    de toda Costa Rica, ofreciendo soluciones
+                    inmobiliarias personalizadas para
+                    cada cliente.</p>
+            </div>
+            <div class="about__us__square">
+                <h2 class="about__us__sub">VISION</h2>
+                <p class="about__us__paragraph">Ser la compañia inmobiliaria lider
+                    en el pais, siendo la mas confiable y
+                    reconocida por facilitar la experiencia
+                    de adquirir y vender propiedades</p>
+            </div>
+            <div class="about__us__square">
+                <h2 class="about__us__sub">VALORES</h2>
+                <p class="about__us__paragraph">Integridad <br> 
+                    Transparencia <br>
+                    Responsabilidad <br>
+                    Pasion por el servicio</p>
+            </div>
+            <div class="about__us__square">
+                <h2 class="about__us__sub">SOBRE LA AGENCIA</h2>
+                <p class="about__us__paragraph">Surgimos en 2025 con la idea de
+                    proporcionar el mejor servicio
+                    a las personas que buscan vender
+                    o adquirir alguna propiedad</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__container">
+            <p class="footer__paragraph"> INMOTEC <br> INMOTEC S.A   -   &copy;2025 <br> infotec.contact@gmail.com</p>
+        </div>
+    </footer>
+    <script src="js/open.js"></script>
+</body>
+</html>
